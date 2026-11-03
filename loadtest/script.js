@@ -1,4 +1,5 @@
-// loadtest/script.js
+/* eslint-env k6 */
+/* global __ENV */
 import http from 'k6/http';
 import { sleep, check } from 'k6';
 
